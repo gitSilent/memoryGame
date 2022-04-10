@@ -1,0 +1,126 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8)
+}
+button{
+    margin:10px;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border: 2px solid rgba(0, 0, 0, 0.685);
+    border-radius: 5px;
+    background-color: rgb(186, 180, 243);
+
+}
+.btnFinish{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.timerField{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.lvlTitle{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.divLvlChoose{
+    background-color: rgba(146, 146, 146, 0.233);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 500px;
+}
+.lvlBtnsDiv{
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    
+}
+
+.mainDiv {
+    background-color: #5700f7;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    border: 5px solid black;
+    border-radius: 5px;
+    animation-duration: 0.5s;
+    animation-name: my-animation;
+}
+
+#divCard {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#divCard p {
+    padding-top: 45%;
+    text-align: center;
+}
+.score{
+    display: flex;
+    justify-content: center;
+}
+
+#row {}
+
+@keyframes my-animation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.backSide {
+    animation-duration: 0.5s;
+    animation-name: my-animation;
+    background-image: url("./question.jpg") !important;
+}
+
+[val=value1] {
+    background-image: url("8.jpg");
+}
+
+[val=value2] {
+    background-image: url("1.jpg");
+}
+
+[val=value3] {
+    background-image: url("2.jpg");
+}
+[val=value4] {
+    background-image: url("3.jpg");
+}
+[val=value5] {
+    background-image: url("4.jpg");
+}
+[val=value6] {
+    background-image: url("5.png");
+}
+[val=value7] {
+    background-image: url("6.png");
+}
+[val=value8] {
+    background-image: url("7.jpg");
+}
