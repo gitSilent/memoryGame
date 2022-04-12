@@ -99,28 +99,28 @@ h1 {
 }
 
 [val=value1] {
-    background-image: url("8.jpg");
+    background-image: url("img/8.jpg");
 }
 
 [val=value2] {
-    background-image: url("1.jpg");
+    background-image: url("img/1.jpg");
 }
 
 [val=value3] {
-    background-image: url("2.jpg");
+    background-image: url("img/2.jpg");
 }
 [val=value4] {
-    background-image: url("3.jpg");
+    background-image: url("img/3.jpg");
 }
 [val=value5] {
-    background-image: url("4.jpg");
+    background-image: url("img/4.jpg");
 }
 [val=value6] {
-    background-image: url("5.png");
+    background-image: url("img/5.png");
 }
 [val=value7] {
-    background-image: url("6.png");
+    background-image: url("img/6.png");
 }
 [val=value8] {
-    background-image: url("7.jpg");
+    background-image: url("img/7.jpg");
 }
